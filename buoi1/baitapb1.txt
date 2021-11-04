@@ -1,0 +1,10 @@
+B1: Tao chuong trình Hello world
+B2: Nhap vào chieu dài, chieu rong HCN. Tính dien tích, chu vi.
+B3: NHap vào 3 so. In ra so lon nhat
+B4: Nhap vào 1 so . Neu so dó > 10 thì number = number / 10. Nguoc lai thì * 10
+B5: Nhap vào 1 so . Neu so dó < 10 thì yêu cau nhap lai cho den khi nào > 10 thì dung
+B6: Tao ra chuong trình máy tính (calculator) (yêu cau nhap vào numberFirst, numberSecond, operator(phép toán) --> su dung switch case)
+B7: Nhap vào 1 so tu 1 - 80. kiem tra neu so dó < so Random(yêu cau so Random kieu int và trong khoang tu 1-80) --> in ra "so ban dã nhap nho hon so Random"
+neu so dó > so Random(yêu cau so Random kieu int và trong khoang tu 1-80) --> in ra "so ban dã nhap lon hon so Random"
+neu so dó = so Random --> in ra "Thành công"
+--> in ra tong so lan thu
