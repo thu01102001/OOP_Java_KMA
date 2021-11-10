@@ -1,0 +1,10 @@
+ex:
+1. Create a cat class includeing properties: name, country, age
+Method: set , get, showInformation
+Create a Object Doreamon from the cat class and the methods
+
+2. Create a officer class including
+* Properties: name, country, gender, year of birth, address
+* Method: set, get, showInformation(name, country, gender, address, age)
+Create a Object from officer class and call the method showInformation
+
