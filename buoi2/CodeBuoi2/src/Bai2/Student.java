@@ -7,6 +7,26 @@ public class Student {
     public String codeStudent;
     public String name;
     
+    //constructor to set default value for properties
+    public Student(){
+        this.name = "KMA-X";
+        this.codeStudent = "KMA-00x";
+        this.birthYear = 2001;
+    }
+    
+    public Student(String StudentName, String code) {
+        this.name = StudentName;
+        this.codeStudent = code;
+        this.birthYear = 2001;
+    }
+    
+    public Student(String StudentName, String code, int year) {
+        this.name = StudentName;
+        this.codeStudent = code;
+        this.birthYear = year;
+    }
+    
+    
     //Method
     //action1 - method 1 : set 
     public void  setName(String nameStudent) {
@@ -32,12 +52,19 @@ public class Student {
     
     //method3: show information
     public void showInformation() {
-        System.out.println("Information of first Student: ");
+        System.out.println("=================================");
+        System.out.println("Name: "+this.getName());   
+        System.out.println("Code: "+this.codeStudent);
+        System.out.println("Birth Year: "+this.birthYear);
+    }
+    
+    public void showInformation(String className) {
+        System.out.println("=================================");
+        System.out.println("You are student in class: "+className);   
         System.out.println("Name: "+this.getName());   
         System.out.println("Code: "+this.codeStudent);
         System.out.println("Birth Year: "+this.birthYear);
     }
 }
 
-// create a cat class; Create new object of class doremon
 

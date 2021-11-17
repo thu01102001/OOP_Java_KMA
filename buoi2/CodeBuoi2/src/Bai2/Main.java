@@ -18,11 +18,15 @@ public class Main {
 //        firstStudent.codeStudent = "AT160447";
 //        firstStudent.birthYear = 2001;
         
-        firstStudent.setName("Lệ Thu");
-        firstStudent.setCode("AT160447");
-        firstStudent.setBirthday(2001);
+        
         //show
         firstStudent.showInformation();
+        
+        
+        
+        Student secondStudent = new Student("thu","at16",2001);
+        //show
+        secondStudent.showInformation("303");
     }
     
 }
