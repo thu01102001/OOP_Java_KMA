@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package bai8;
+package bai3;
 
 /**
  *
@@ -10,9 +10,11 @@ package bai8;
  */
 public class RunMain {
     public static void main(String[] args) {
-        MyPoint mypoint1 = new MyPoint();
-        mypoint1.setXY();
-        System.out.println("Tọa độ: " + mypoint1);
-        System.out.println( "Do dai: " + mypoint1.distance(4,8));
+        Employee NV1 = new Employee();
+        NV1.setId(1);
+        NV1.setFirstName("Nguyễn");
+        NV1.setLastName("Thu");
+        NV1.setSalaryMonthly(18.123);
+        NV1.showInformation();
     }
 }
