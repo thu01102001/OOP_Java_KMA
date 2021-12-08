@@ -23,11 +23,15 @@ public class RunMain {
         //tong
         System.out.println("================");
         SoPhuc Tong = sp.congSoPhuc(sp1,sp2);
-        System.out.println("Tong: ");
+        System.out.println("Tổng: ");
        System.out.println(Tong.getPhanThuc() + " + " + Tong.getPhanAo() + "i");
        //Nhan
-       System.out.println("Nhan: ");
+       System.out.println("Nhân: ");
        SoPhuc Nhan = sp.nhanSoPhuc(sp1, sp2);
+       System.out.println(Nhan.getPhanThuc() + " + " + Nhan.getPhanAo() + "i");
+       //chia
+       System.out.println("Chia: ");
+       SoPhuc Chia = sp.chiaSoPhuc(sp1, sp2);
        System.out.println(Nhan.getPhanThuc() + " + " + Nhan.getPhanAo() + "i");
     }
 }

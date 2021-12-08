@@ -58,4 +58,10 @@ public class SoPhuc {
         nhanSP.phanAo = sp1.phanAo * sp2.phanThuc + sp1.phanThuc * sp2.phanAo;
         return nhanSP;
     }
+    public SoPhuc chiaSoPhuc(SoPhuc sp1, SoPhuc sp2) {
+        SoPhuc chiaSP = new SoPhuc(0,0);
+        chiaSP.phanThuc = (sp1.phanThuc * sp2.phanThuc + sp1.phanAo * sp2.phanAo)/(sp2.phanThuc * sp2.phanThuc + sp2.phanAo * sp2.phanAo);
+        chiaSP.phanAo = (sp1.phanAo * sp2.phanThuc - sp1.phanThuc * sp2.phanAo) / (sp2.phanThuc * sp2.phanThuc + sp2.phanAo * sp2.phanAo);
+        return chiaSP;
+    }
 }
